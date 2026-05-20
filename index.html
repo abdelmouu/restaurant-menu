@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="theme-color" content="#3e2723">
+  <link rel="apple-touch-icon" href="logo.jpeg">
+
+  <meta property="og:title" content="Dallas Choco House — Menu">
+  <meta property="og:description" content="Digital menu for Dallas Choco House">
+  <meta property="og:image" content="logo.jpeg">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dallas Choco House — Menu">
+  <meta name="twitter:description" content="Digital menu for Dallas Choco House">
+  <meta name="twitter:image" content="logo.jpeg">
+
+  <title data-i18n="head_title">Dallas Choco House — Menu</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=Cormorant:ital,wght@1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- OFFLINE BANNER — disabled until ordering system is ready
+    <div id="offline-banner" class="offline-banner hidden" aria-live="polite"></div>
+    -->
+
+  <header class="site-header">
+    <a class="header-brand" href="#">
+      <img src="logo.jpeg" alt="Dallas Choco House" class="brand-logo">
+    </a>
+
+    <address class="header-contact">
+      <div id="table-badge" class="table-badge hidden" aria-hidden="true">
+        <span>📍</span> Table <span id="table-number">--</span>
+      </div>
+
+      <div class="lang-toggle">
+        <button id="lang-en" class="lang-btn active" aria-label="Switch to English">EN</button>
+        <span class="lang-sep">|</span>
+        <button id="lang-fr" class="lang-btn" aria-label="Switch to French">FR</button>
+      </div>
+      
+      <a class="contact-chip" href="tel:+212662515401">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        <span class="chip-label">06 62 51 54 01</span>
+      </a>
+      <a class="contact-chip" href="https://instagram.com/dallas_chocohouse" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        <span class="chip-label">@dallas_chocohouse</span>
+      </a>
+    </address>
+  </header>
+
+  <nav class="nav-sticky" aria-label="Menu sections">
+    <ul class="nav-inner">
+      <li><a href="#breakfast" data-i18n="nav_breakfast"><span class="nav-icon" aria-hidden="true">☀️</span> Breakfast</a></li>
+      <li><a href="#brunch" data-i18n="nav_brunch"><span class="nav-icon" aria-hidden="true">🥚</span> Brunch</a></li>
+      <li><a href="#savory" data-i18n="nav_savory"><span class="nav-icon" aria-hidden="true">🥙</span> Savory</a></li>
+      <li><a href="#evening" data-i18n="nav_evening"><span class="nav-icon" aria-hidden="true">🌙</span> Evening</a></li>
+      <li><a href="#drinks" data-i18n="nav_drinks"><span class="nav-icon" aria-hidden="true">☕</span> Drinks</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-wrap">
+
+    <div id="loading-screen" class="loading-screen">
+      <div class="menu-grid">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+    </div>
+
+    <section id="breakfast" class="menu-section reveal" data-category="breakfast">
+      <header class="section-chrome">
+        <span class="section-tag" data-i18n="tag_breakfast">Morning Rituals</span>
+        <h2 class="section-title" data-i18n="title_breakfast">Breakfast</h2>
+        <div class="section-rule" aria-hidden="true"><div class="rule-diamond"></div></div>
+      </header>
+      <div class="menu-grid">
+        <article class="menu-card" data-item-id="rapido-breakfast">
+          <div class="card-top">
+            <h3 class="card-name">Rapido</h3>
+            <span class="card-price">42 dhs</span>
+          </div>
+          <p class="card-desc">San Sebastian Nutella, orange juice, Moroccan tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="healthy-breakfast">
+          <div class="card-top">
+            <h3 class="card-name">Healthy</h3>
+            <span class="card-price">48 dhs</span>
+          </div>
+          <p class="card-desc">Cheese omelette, toasted bread, plain cheese, olive oil, fruit yogurt, orange juice, tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="eggs-tomato-breakfast">
+          <div class="card-top">
+            <h3 class="card-name">Eggs Tomato</h3>
+            <span class="card-price">58 dhs</span>
+          </div>
+          <p class="card-desc">Scrambled eggs, tomato &amp; lemon sauce, bread basket, olives, olive oil, plain cheese, fruit salad with yogurt, orange juice, tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="traditionnelle-breakfast">
+          <div class="card-top">
+            <h3 class="card-name">Traditionnelle</h3>
+            <span class="card-price">62 dhs</span>
+          </div>
+          <p class="card-desc">Msemen, harcha, meloui, boiled egg, plain cheese, olive oil, amlou, honey, fruit salad with yogurt, orange juice, tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="andalouse-breakfast">
+          <div class="card-top">
+            <h3 class="card-name">Andalouse</h3>
+            <span class="card-price">66 dhs</span>
+          </div>
+          <p class="card-desc">Scrambled eggs, dried meat (Khlii), bread basket, plain cheese, olive oil, fruit salad with yogurt, tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card featured" data-item-id="gourmand-breakfast">
+          <div class="card-top">
+            <h3 class="card-name">Gourmand</h3>
+            <span class="card-price">74 dhs</span>
+          </div>
+          <p class="card-desc">Cheese omelette, bread basket, charcuterie, chocolate San Sebastian, fruit salad with yogurt, orange juice, tea or latte, 33cl water.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="brunch" class="menu-section reveal" data-category="brunch">
+      <header class="section-chrome">
+        <span class="section-tag" data-i18n="tag_brunch">Late Morning</span>
+        <h2 class="section-title" data-i18n="title_brunch">Brunch</h2>
+        <div class="section-rule" aria-hidden="true"><div class="rule-diamond"></div></div>
+      </header>
+      <div class="menu-grid">
+        <article class="menu-card" data-item-id="sweet-savory-brunch">
+          <div class="card-top">
+            <h3 class="card-name">Sweet &amp; Savory</h3>
+            <span class="card-price">80 dhs</span>
+          </div>
+          <p class="card-desc">Two fried eggs, avocado slices, plain cheese, charcuterie, toasted bread, chocolate brownie, fruit yogurt, orange juice, tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="chicken-morning-brunch">
+          <div class="card-top">
+            <h3 class="card-name">Chicken Morning</h3>
+            <span class="card-price">84 dhs</span>
+          </div>
+          <p class="card-desc">Chicken sandwich, cheddar, toasted bread, penne with cheese sauce, cheesecake, soda, tea or latte, 33cl water.</p>
+        </article>
+        <article class="menu-card featured" data-item-id="gourmand-viande-chocolat-brunch">
+          <div class="card-top">
+            <h3 class="card-name">Gourmand Viande &amp; Chocolat</h3>
+            <span class="card-price">90 dhs</span>
+          </div>
+          <p class="card-desc">Minced meat sandwich, penne with cheese sauce, chocolate fondant, soda, tea or latte, 33cl water.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="savory" class="menu-section reveal" data-category="savory">
+      <header class="section-chrome">
+        <span class="section-tag" data-i18n="tag_savory">Sandwiches · Pasta · Crêpes</span>
+        <h2 class="section-title" data-i18n="title_savory">Savory</h2>
+        <div class="section-rule" aria-hidden="true"><div class="rule-diamond"></div></div>
+      </header>
+
+      <p class="category-label" data-i18n="cat_sandwiches">Sandwiches</p>
+      <div class="menu-grid">
+        <article class="menu-card" data-item-id="charcuterie-sandwich">
+          <div class="card-top">
+            <h3 class="card-name">Charcuterie Sandwich</h3>
+            <span class="card-price">52 dhs</span>
+          </div>
+          <p class="card-desc">Served with penne, cheese sauce, cheddar &amp; tomato salad.</p>
+        </article>
+        <article class="menu-card" data-item-id="chicken-sandwich">
+          <div class="card-top">
+            <h3 class="card-name">Chicken Sandwich</h3>
+            <span class="card-price">58 dhs</span>
+          </div>
+          <p class="card-desc">Served with penne, cheese sauce, cheddar &amp; tomato salad.</p>
+        </article>
+        <article class="menu-card" data-item-id="minced-meat-sandwich">
+          <div class="card-top">
+            <h3 class="card-name">Minced Meat Sandwich</h3>
+            <span class="card-price">68 dhs</span>
+          </div>
+          <p class="card-desc">Served with penne, cheese sauce, cheddar &amp; tomato salad.</p>
+        </article>
+      </div>
+
+      <p class="category-label" data-i18n="cat_pasta">Pasta — Penne base</p>
+      <div class="menu-grid grid-3">
+        <article class="menu-card" data-item-id="bolognaise-pasta">
+          <div class="card-top">
+            <h3 class="card-name">Bolognaise</h3>
+            <span class="card-price">65 dhs</span>
+          </div>
+        </article>
+        <article class="menu-card" data-item-id="chicken-gratin-pasta">
+          <div class="card-top">
+            <h3 class="card-name">Chicken Gratin</h3>
+            <span class="card-price">65 dhs</span>
+          </div>
+        </article>
+        <article class="menu-card" data-item-id="minced-meat-gratin-pasta">
+          <div class="card-top">
+            <h3 class="card-name">Minced Meat Gratin</h3>
+            <span class="card-price">70 dhs</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="category-label" data-i18n="cat_crepes">Savory Crêpes</p>
+      <div class="menu-grid grid-3">
+        <article class="menu-card" data-item-id="charcuterie-crepe">
+          <div class="card-top">
+            <h3 class="card-name">Charcuterie Crêpe</h3>
+            <span class="card-price">55 dhs</span>
+          </div>
+        </article>
+        <article class="menu-card" data-item-id="chicken-mushroom-crepe">
+          <div class="card-top">
+            <h3 class="card-name">Chicken Mushroom Crêpe</h3>
+            <span class="card-price">60 dhs</span>
+          </div>
+        </article>
+        <article class="menu-card" data-item-id="minced-meat-crepe">
+          <div class="card-top">
+            <h3 class="card-name">Minced Meat Crêpe</h3>
+            <span class="card-price">70 dhs</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="evening" class="menu-section reveal" data-category="evening">
+      <header class="section-chrome">
+        <span class="section-tag" data-i18n="tag_evening">Formules du Soir</span>
+        <h2 class="section-title" data-i18n="title_evening">Evening Formulas</h2>
+        <div class="section-rule" aria-hidden="true"><div class="rule-diamond"></div></div>
+      </header>
+      <div class="menu-grid">
+        <article class="menu-card" data-item-id="basque-evening">
+          <div class="card-top">
+            <h3 class="card-name">Basque</h3>
+            <span class="card-price">47 dhs</span>
+          </div>
+          <p class="card-desc">San Sebastian or cheesecake, Moroccan tea or café crème, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="traditionnelle-evening">
+          <div class="card-top">
+            <h3 class="card-name">Traditionnelle</h3>
+            <span class="card-price">49 dhs</span>
+          </div>
+          <p class="card-desc">Msemen, harcha, meloui, cheese, honey, Moroccan tea or café crème, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="gourmand-evening">
+          <div class="card-top">
+            <h3 class="card-name">Gourmand</h3>
+            <span class="card-price">60 dhs</span>
+          </div>
+          <p class="card-desc">Nutella crêpe, hot drink of your choice, 33cl water.</p>
+        </article>
+        <article class="menu-card" data-item-id="brownies-milkshake-evening">
+          <div class="card-top">
+            <h3 class="card-name">Brownies &amp; Milkshake</h3>
+            <span class="card-price">74 dhs</span>
+          </div>
+          <p class="card-desc">Brownie, smoothie of your choice, 33cl water.</p>
+        </article>
+        <article class="menu-card featured" data-item-id="cake-milkshake-evening">
+          <div class="card-top">
+            <h3 class="card-name">Cake &amp; Milkshake</h3>
+            <span class="card-price">77 dhs</span>
+          </div>
+          <p class="card-desc">American cake, milkshake of your choice, 33cl water.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="drinks" class="menu-section reveal" data-category="drinks">
+      <header class="section-chrome">
+        <span class="section-tag" data-i18n="tag_drinks">Boissons</span>
+        <h2 class="section-title" data-i18n="title_drinks">Drinks</h2>
+        <div class="section-rule" aria-hidden="true"><div class="rule-diamond"></div></div>
+      </header>
+      <div class="drinks-grid">
+        <article class="drinks-card">
+          <header class="drinks-card-head">
+            <span class="dc-icon" aria-hidden="true">☕</span>
+            <h3 data-i18n="drinks_coffee">Coffee <small>+ 33cl water</small></h3>
+          </header>
+          <div class="drinks-list">
+            <div class="drink-row" data-item-id="espresso">
+              <div class="drink-name">Espresso</div>
+              <div class="drink-price">20 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="hot-milk">
+              <div class="drink-name">Hot Milk</div>
+              <div class="drink-price">20 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="coffee-with-milk">
+              <div class="drink-name">Coffee with Milk</div>
+              <div class="drink-price">22 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="americano">
+              <div class="drink-name">Americano</div>
+              <div class="drink-price">25 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="milk-chocolate">
+              <div class="drink-name">Milk Chocolate</div>
+              <div class="drink-price">32 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="flavored-espresso">
+              <div class="drink-name">Flavored Espresso</div>
+              <div class="drink-price">32 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="cappuccino">
+              <div class="drink-name">Cappuccino</div>
+              <div class="drink-price">32 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="ice-coffee">
+              <div class="drink-name">Ice Coffee</div>
+              <div class="drink-price">32 dhs</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drinks-card">
+          <header class="drinks-card-head">
+            <span class="dc-icon" aria-hidden="true">🫖</span>
+            <h3 data-i18n="drinks_tea">Tea <small>+ 33cl water</small></h3>
+          </header>
+          <div class="drinks-list">
+            <div class="drink-row" data-item-id="moroccan-tea">
+              <div class="drink-name">Moroccan Tea</div>
+              <div class="drink-price">22 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="verbena-tea">
+              <div class="drink-name">Verbena Tea</div>
+              <div class="drink-price">22 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="milk-verbena-tea">
+              <div class="drink-name">Milk Verbena Tea</div>
+              <div class="drink-price">24 dhs</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drinks-card">
+          <header class="drinks-card-head">
+            <span class="dc-icon" aria-hidden="true">🍊</span>
+            <h3 data-i18n="drinks_juices">Fresh Juices</h3>
+          </header>
+          <div class="drinks-list">
+            <div class="drink-row" data-item-id="orange-juice">
+              <div class="drink-name">Orange Juice</div>
+              <div class="drink-price">24 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="red-fruits-juice">
+              <div class="drink-name">Red Fruits Juice</div>
+              <div class="drink-price">34 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="avocado-juice">
+              <div class="drink-name">Avocado Juice</div>
+              <div class="drink-price">34 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="pineapple-juice">
+              <div class="drink-name">Pineapple Juice</div>
+              <div class="drink-price">34 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="mango-juice">
+              <div class="drink-name">Mango Juice</div>
+              <div class="drink-price">34 dhs</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drinks-card">
+          <header class="drinks-card-head">
+            <span class="dc-icon" aria-hidden="true">🍹</span>
+            <h3 data-i18n="drinks_cocktails">Cocktails &amp; Smoothies</h3>
+          </header>
+          <div class="drinks-list">
+            <div class="drink-row" data-item-id="mojito">
+              <div>
+                <div class="drink-name">Mojito</div>
+                <div class="drink-vars">Classic · Blue · Red · Tropical</div>
+              </div>
+              <div class="drink-price">40 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="pina-colada">
+              <div>
+                <div class="drink-name">Piña Colada</div>
+                <div class="drink-vars">Pineapple · Mango</div>
+              </div>
+              <div class="drink-price">42 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="smoothie">
+              <div>
+                <div class="drink-name">Smoothie</div>
+                <div class="drink-vars">Tropical · Strawberry</div>
+              </div>
+              <div class="drink-price">45 dhs</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="drinks-card drinks-card-full">
+          <header class="drinks-card-head">
+            <span class="dc-icon" aria-hidden="true">🥤</span>
+            <h3 data-i18n="drinks_milkshakes">Milkshakes</h3>
+          </header>
+          <div class="drinks-list milkshakes-list">
+            <div class="drink-row" data-item-id="red-fruits-milkshake">
+              <div class="drink-name">Red Fruits</div>
+              <div class="drink-price">45 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="pineapple-milkshake">
+              <div class="drink-name">Pineapple</div>
+              <div class="drink-price">45 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="mango-milkshake">
+              <div class="drink-name">Mango</div>
+              <div class="drink-price">45 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="oreo-milkshake">
+              <div class="drink-name">Oreo</div>
+              <div class="drink-price">45 dhs</div>
+            </div>
+            <div class="drink-row" data-item-id="caramel-milkshake">
+              <div class="drink-name">Caramel</div>
+              <div class="drink-price">45 dhs</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">Dallas Choco House</div>
+    <div class="footer-tagline" data-i18n="footer_tagline">Your satisfaction is our priority</div>
+    <address class="footer-links">
+      <a href="tel:+212662515401">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        06 62 51 54 01
+      </a>
+      <span class="footer-sep" aria-hidden="true"></span>
+      <a href="https://instagram.com/dallas_chocohouse" target="_blank" rel="noopener">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        @dallas_chocohouse
+      </a>
+    </address>
+    <p class="footer-copy">© 2025 Dallas Choco House. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

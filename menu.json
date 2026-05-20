@@ -1,0 +1,802 @@
+{
+  "en": {
+    "breakfast": [
+      {
+        "id": "rapido-breakfast",
+        "name": "Rapido",
+        "price": 42,
+        "price_display": "42 dhs",
+        "description": "San sebastian nutella, orange juice, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "healthy-breakfast",
+        "name": "Healthy",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Cheese omelet, toasted bread, plain cheese, olive oil, fruit yogurt, orange juice, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "eggs-tomato-breakfast",
+        "name": "Eggs Tomato",
+        "price": 58,
+        "price_display": "58 dhs",
+        "description": "Scrambled eggs, tomato & lemon sauce, bread basket, olives, olive oil, plain cheese, fruit salad with yogurt, orange juice, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "traditionnelle-breakfast",
+        "name": "Traditionnelle",
+        "price": 62,
+        "price_display": "62 dhs",
+        "description": "Msemen, harcha, meloui, boiled egg, plain cheese, olive oil, amlou, honey, fruit salad with yogurt, orange juice, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "andalouse-breakfast",
+        "name": "Andalouse",
+        "price": 66,
+        "price_display": "66 dhs",
+        "description": "Scrambled eggs, dried meat (Khlii), bread basket, plain cheese, olive oil, fruit salad with yogurt, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "gourmand-breakfast",
+        "name": "Gourmand",
+        "price": 74,
+        "price_display": "74 dhs",
+        "description": "Cheese omelet, bread basket, charcuterie, chocolate San Sebastian, fruit salad with yogurt, orange juice, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      }
+    ],
+    "brunch": [
+      {
+        "id": "sweet-savory-brunch",
+        "name": "Sweet & Savory Brunch",
+        "price": 80,
+        "price_display": "80 dhs",
+        "description": "Two fried eggs, avocado slices, plain cheese, charcuterie, toasted bread, chocolate brownie, fruit yogurt, orange juice, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "chicken-morning-brunch",
+        "name": "Chicken Morning",
+        "price": 84,
+        "price_display": "84 dhs",
+        "description": "Chicken sandwich, cheddar cheese, toasted bread, penne with cheese sauce, cheesecake, soda, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "gourmand-viande-chocolat-brunch",
+        "name": "Gourmand Viande & Chocolat",
+        "price": 90,
+        "price_display": "90 dhs",
+        "description": "Minced meat sandwich, penne with cheese sauce, chocolate fondant, soda, moroccan tea or latte, 33cl bottle of water",
+        "tags": []
+      }
+    ],
+    "sandwiches": [
+      {
+        "id": "charcuterie-sandwich",
+        "name": "Charcuterie Sandwich",
+        "price": 52,
+        "price_display": "52 dhs",
+        "description": "Penne with cheese, cheese sauce, cheddar cheese, tomato salad",
+        "tags": []
+      },
+      {
+        "id": "chicken-sandwich",
+        "name": "Chicken Sandwich",
+        "price": 58,
+        "price_display": "58 dhs",
+        "description": "Penne with cheese, cheese sauce, cheddar cheese, tomato salad",
+        "tags": []
+      },
+      {
+        "id": "minced-meat-sandwich",
+        "name": "Minced Meat Sandwich",
+        "price": 68,
+        "price_display": "68 dhs",
+        "description": "Penne with cheese, cheese sauce, cheddar cheese, tomato salad",
+        "tags": []
+      }
+    ],
+    "pasta": [
+      {
+        "id": "bolognaise-pasta",
+        "name": "Bolognaise",
+        "price": 65,
+        "price_display": "65 dhs",
+        "description": "",
+        "tags": ["Penne base"]
+      },
+      {
+        "id": "chicken-gratin-pasta",
+        "name": "Chicken Gratin",
+        "price": 65,
+        "price_display": "65 dhs",
+        "description": "",
+        "tags": ["Penne base"]
+      },
+      {
+        "id": "minced-meat-gratin-pasta",
+        "name": "Minced Meat Gratin",
+        "price": 70,
+        "price_display": "70 dhs",
+        "description": "",
+        "tags": ["Penne base"]
+      }
+    ],
+    "savory_crepes": [
+      {
+        "id": "charcuterie-crepe",
+        "name": "Charcuterie Crepe",
+        "price": 55,
+        "price_display": "55 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "chicken-mushroom-crepe",
+        "name": "Chicken Mushroom Crepe",
+        "price": 60,
+        "price_display": "60 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "minced-meat-crepe",
+        "name": "Minced Meat Crepe",
+        "price": 70,
+        "price_display": "70 dhs",
+        "description": "",
+        "tags": []
+      }
+    ],
+    "evening_formulas": [
+      {
+        "id": "basque-evening",
+        "name": "Basque",
+        "price": 47,
+        "price_display": "47 dhs",
+        "description": "San Sebastian or cheesecake, moroccan tea or café crème, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "traditionnelle-evening",
+        "name": "Traditionnelle",
+        "price": 49,
+        "price_display": "49 dhs",
+        "description": "Msemen, harcha, meloui, cheese, honey, moroccan tea or café crème, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "gourmand-evening",
+        "name": "Gourmand",
+        "price": 60,
+        "price_display": "60 dhs",
+        "description": "Nutella crepe, hot drink of your choice, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "brownies-milkshake-evening",
+        "name": "Brownies and milkshake",
+        "price": 74,
+        "price_display": "74 dhs",
+        "description": "Brownie, smoothie of your choice, 33cl bottle of water",
+        "tags": []
+      },
+      {
+        "id": "cake-milkshake-evening",
+        "name": "Cake and milkshake",
+        "price": 77,
+        "price_display": "77 dhs",
+        "description": "American cake, milkshake of your choice, 33cl bottle of water",
+        "tags": []
+      }
+    ],
+    "coffee": [
+      {
+        "id": "espresso",
+        "name": "Espresso",
+        "price": 20,
+        "price_display": "20 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "hot-milk",
+        "name": "Hot Milk",
+        "price": 20,
+        "price_display": "20 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "coffee-with-milk",
+        "name": "Coffee with Milk",
+        "price": 22,
+        "price_display": "22 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "americano",
+        "name": "Americano",
+        "price": 25,
+        "price_display": "25 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "milk-chocolate",
+        "name": "Milk Chocolate",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "flavored-espresso",
+        "name": "Flavored Espresso",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "cappuccino",
+        "name": "Cappuccino",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "ice-coffee",
+        "name": "Ice coffee",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      }
+    ],
+    "tea": [
+      {
+        "id": "moroccan-tea",
+        "name": "Moroccan Tea",
+        "price": 22,
+        "price_display": "22 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "verbena-tea",
+        "name": "Verbena Tea",
+        "price": 22,
+        "price_display": "22 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      },
+      {
+        "id": "milk-verbena-tea",
+        "name": "Milk Verbena Tea",
+        "price": 24,
+        "price_display": "24 dhs",
+        "description": "",
+        "tags": ["+ 33cl bottle of water"]
+      }
+    ],
+    "juices": [
+      {
+        "id": "orange-juice",
+        "name": "Orange Juice",
+        "price": 24,
+        "price_display": "24 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "red-fruits-juice",
+        "name": "Red Fruits Juice",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "avocado-juice",
+        "name": "Avocado Juice",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "pineapple-juice",
+        "name": "Pineapple Juice",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "mango-juice",
+        "name": "Mango Juice",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      }
+    ],
+    "cocktails": [
+      {
+        "id": "mojito",
+        "name": "Mojito",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "Classic - blue - red - tropical",
+        "tags": []
+      },
+      {
+        "id": "pina-colada",
+        "name": "Piña colada",
+        "price": 42,
+        "price_display": "42 dhs",
+        "description": "Pineapple - mango",
+        "tags": []
+      },
+      {
+        "id": "smoothie",
+        "name": "Smoothie",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "Tropical - strawberry",
+        "tags": []
+      }
+    ],
+    "milkshakes": [
+      {
+        "id": "red-fruits-milkshake",
+        "name": "Red Fruits",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "pineapple-milkshake",
+        "name": "Pineapple",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "mango-milkshake",
+        "name": "Mango",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "oreo-milkshake",
+        "name": "Oreo",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "caramel-milkshake",
+        "name": "Caramel",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      }
+    ]
+  },
+  "fr": {
+    "breakfast": [
+      {
+        "id": "rapido-breakfast",
+        "name": "Rapido",
+        "price": 42,
+        "price_display": "42 dhs",
+        "description": "San sebastian nutella, jus d'orange, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "healthy-breakfast",
+        "name": "Healthy",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Omelette au fromage, pain grillé, fromage nature, huile d'olive, yaourt aux fruits, jus d'orange, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "eggs-tomato-breakfast",
+        "name": "Eggs Tomato",
+        "price": 58,
+        "price_display": "58 dhs",
+        "description": "Œufs brouillés, sauce tomate & citron, panier de pain, olives, huile d'olive, fromage nature, salade de fruit a base de yaourt, jus d'orange, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "traditionnelle-breakfast",
+        "name": "Traditionnelle",
+        "price": 62,
+        "price_display": "62 dhs",
+        "description": "Msemen, harcha, meloui, œuf dur, fromage nature, huile d'olive, amlou, miel, salade de fruits à base de yaourt, jus d'orange, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "andalouse-breakfast",
+        "name": "Andalouse",
+        "price": 66,
+        "price_display": "66 dhs",
+        "description": "Œufs brouillés, viande séchée الخليع, panier de pain, fromage nature, huile d'olive, salade de fruits à base de yaourt, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "gourmand-breakfast",
+        "name": "Gourmand",
+        "price": 74,
+        "price_display": "74 dhs",
+        "description": "Omelette fromage, panier de pain, charcutrie, san sebastian chocolat, salade de fruits à base de yaourt, jus d'orange, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      }
+    ],
+    "brunch": [
+      {
+        "id": "sweet-savory-brunch",
+        "name": "Brunch Sucré, Salé",
+        "price": 80,
+        "price_display": "80 dhs",
+        "description": "Deux œufs au plat, tranche d'avocat, fromage nature, charcuterie, pain grillé, brownie chocolat, yaourt fruits, jus d'orange, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "chicken-morning-brunch",
+        "name": "Chicken Morning",
+        "price": 84,
+        "price_display": "84 dhs",
+        "description": "Sandwich de poulet, fromage cheddar, pain grillé, penne sauce fromage, cheese cake, Soda, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "gourmand-viande-chocolat-brunch",
+        "name": "Gourmand Viande & Chocolat",
+        "price": 90,
+        "price_display": "90 dhs",
+        "description": "Sandwich viande hachée, penne sauce fromage, fondant chocolat, soda, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      }
+    ],
+    "sandwiches": [
+      {
+        "id": "charcuterie-sandwich",
+        "name": "Sandwich charcuterie",
+        "price": 52,
+        "price_display": "52 dhs",
+        "description": "Penne fromage, sauce fromagère, fromage cheddar, salade tomates",
+        "tags": []
+      },
+      {
+        "id": "chicken-sandwich",
+        "name": "Sandwich poulet",
+        "price": 58,
+        "price_display": "58 dhs",
+        "description": "Penne fromage, sauce fromagère, fromage cheddar, salade tomates",
+        "tags": []
+      },
+      {
+        "id": "minced-meat-sandwich",
+        "name": "Sandwich viande hachée",
+        "price": 68,
+        "price_display": "68 dhs",
+        "description": "Penne fromage, sauce fromagère, fromage cheddar, salade tomates",
+        "tags": []
+      }
+    ],
+    "pasta": [
+      {
+        "id": "bolognaise-pasta",
+        "name": "Bolognaise",
+        "price": 65,
+        "price_display": "65 dhs",
+        "description": "",
+        "tags": ["Base penne"]
+      },
+      {
+        "id": "chicken-gratin-pasta",
+        "name": "Gratin de poulet",
+        "price": 65,
+        "price_display": "65 dhs",
+        "description": "",
+        "tags": ["Base penne"]
+      },
+      {
+        "id": "minced-meat-gratin-pasta",
+        "name": "Gratin de viande hachée",
+        "price": 70,
+        "price_display": "70 dhs",
+        "description": "",
+        "tags": ["Base penne"]
+      }
+    ],
+    "savory_crepes": [
+      {
+        "id": "charcuterie-crepe",
+        "name": "Crêpe charcuterie",
+        "price": 55,
+        "price_display": "55 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "chicken-mushroom-crepe",
+        "name": "Crêpe au poulet champignon",
+        "price": 60,
+        "price_display": "60 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "minced-meat-crepe",
+        "name": "Crêpe viande hachée",
+        "price": 70,
+        "price_display": "70 dhs",
+        "description": "",
+        "tags": []
+      }
+    ],
+    "evening_formulas": [
+      {
+        "id": "basque-evening",
+        "name": "Basque",
+        "price": 47,
+        "price_display": "47 dhs",
+        "description": "San sebastian ou cheesecake, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "traditionnelle-evening",
+        "name": "Traditionnelle",
+        "price": 49,
+        "price_display": "49 dhs",
+        "description": "Msemen, harcha, meloui, fromage, miel, thé marocain ou café crème, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "gourmand-evening",
+        "name": "Gourmand",
+        "price": 60,
+        "price_display": "60 dhs",
+        "description": "Crêpe nutella, boisson chaude au choix, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "brownies-milkshake-evening",
+        "name": "Brownies and milkshake",
+        "price": 74,
+        "price_display": "74 dhs",
+        "description": "Brownie, smoothie au choix, bouteille d'eau 33cl",
+        "tags": []
+      },
+      {
+        "id": "cake-milkshake-evening",
+        "name": "Cake and milkshake",
+        "price": 77,
+        "price_display": "77 dhs",
+        "description": "Cake American, milkshake au choix, bouteille d'eau 33cl",
+        "tags": []
+      }
+    ],
+    "coffee": [
+      {
+        "id": "espresso",
+        "name": "Expresso",
+        "price": 20,
+        "price_display": "20 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "hot-milk",
+        "name": "Lait chaude",
+        "price": 20,
+        "price_display": "20 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "coffee-with-milk",
+        "name": "Café au lait",
+        "price": 22,
+        "price_display": "22 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "americano",
+        "name": "Allonge",
+        "price": 25,
+        "price_display": "25 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "milk-chocolate",
+        "name": "Chocolat au lait",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "flavored-espresso",
+        "name": "Expresso aromatisé",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "cappuccino",
+        "name": "Cappuccino",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "ice-coffee",
+        "name": "Ice coffee",
+        "price": 32,
+        "price_display": "32 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      }
+    ],
+    "tea": [
+      {
+        "id": "moroccan-tea",
+        "name": "Thé marocain",
+        "price": 22,
+        "price_display": "22 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "verbena-tea",
+        "name": "Verveine à l'eau",
+        "price": 22,
+        "price_display": "22 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      },
+      {
+        "id": "milk-verbena-tea",
+        "name": "Verveine au lait",
+        "price": 24,
+        "price_display": "24 dhs",
+        "description": "",
+        "tags": ["+ Bouteille d'eau 33cl"]
+      }
+    ],
+    "juices": [
+      {
+        "id": "orange-juice",
+        "name": "Jus d'orange",
+        "price": 24,
+        "price_display": "24 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "red-fruits-juice",
+        "name": "Jus de fruits rouge",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "avocado-juice",
+        "name": "Jus d'avocat",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "pineapple-juice",
+        "name": "Jus d'ananas",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "mango-juice",
+        "name": "Jus de mangue",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "",
+        "tags": []
+      }
+    ],
+    "cocktails": [
+      {
+        "id": "mojito",
+        "name": "Mojito",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "Classique - bleu - rouge - tropical",
+        "tags": []
+      },
+      {
+        "id": "pina-colada",
+        "name": "Piña colada",
+        "price": 42,
+        "price_display": "42 dhs",
+        "description": "Ananas - mangue",
+        "tags": []
+      },
+      {
+        "id": "smoothie",
+        "name": "Smoothie",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "Tropical - fraise",
+        "tags": []
+      }
+    ],
+    "milkshakes": [
+      {
+        "id": "red-fruits-milkshake",
+        "name": "Fruits rouges",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "pineapple-milkshake",
+        "name": "Ananas",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "mango-milkshake",
+        "name": "Mangue",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "oreo-milkshake",
+        "name": "Oreo",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "caramel-milkshake",
+        "name": "Caramel",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "",
+        "tags": []
+      }
+    ]
+  }
+}
