@@ -243,7 +243,15 @@ function setupObservers() {
       if (e.isIntersecting) {
         navLinks.forEach(a => a.classList.remove('active'));
         const active = document.querySelector(`.nav-inner a[href="#${e.target.id}"]`);
-        if (active) active.classList.add('active');
+        if (active) {
+          active.classList.add('active');
+          // Auto-scroll the nav container to keep the active item visible
+          active.scrollIntoView({
+            behavior: 'smooth',
+            inline: 'center',
+            block: 'nearest'
+          });
+        }
       }
     });
   }, { rootMargin: '-30% 0px -60% 0px' });
