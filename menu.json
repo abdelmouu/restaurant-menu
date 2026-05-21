@@ -397,6 +397,196 @@
         "description": "",
         "tags": []
       }
+    ],
+    "glaces": [
+      {
+        "id": "mangue-glace",
+        "name": "Mangue",
+        "price": 28,
+        "price_display": "28 dhs",
+        "description": "Glace Fruit",
+        "tags": []
+      },
+      {
+        "id": "fraise-glace",
+        "name": "Fraise",
+        "price": 28,
+        "price_display": "28 dhs",
+        "description": "Glace Fruit",
+        "tags": []
+      },
+      {
+        "id": "citron-glace",
+        "name": "Citron",
+        "price": 28,
+        "price_display": "28 dhs",
+        "description": "Glace Fruit",
+        "tags": []
+      },
+      {
+        "id": "lotus-glace",
+        "name": "Lotus",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      },
+      {
+        "id": "oreo-glace",
+        "name": "Oreo",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      },
+      {
+        "id": "pistache-glace",
+        "name": "Pistache",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      },
+      {
+        "id": "chocolat-au-lait-glace",
+        "name": "Chocolat au lait",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      }
+    ],
+    "desserts": [
+      {
+        "id": "san-sebastian-nutella-dessert",
+        "name": "San Sebastian Nutella",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "san-sebastian-dessert",
+        "name": "San Sebastian",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Oreo / Lotus / Chocolat belge / Crème pistache",
+        "tags": []
+      },
+      {
+        "id": "fondant-chocolat-dessert",
+        "name": "Fondant Chocolat",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "fondant-chocolat-garni-dessert",
+        "name": "Fondant Chocolat Garni",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Crème pistache / Lotus / Oreo",
+        "tags": []
+      },
+      {
+        "id": "brownie-dessert",
+        "name": "Brownie",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "Chocolat / Cookies",
+        "tags": []
+      },
+      {
+        "id": "brownie-chocolat-garni-dessert",
+        "name": "Brownie Chocolat Garni",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Crème pistache / Lotus / Oreo",
+        "tags": []
+      },
+      {
+        "id": "cheesecake-dessert",
+        "name": "Cheesecake",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "Citron / Mangue / Fraise",
+        "tags": []
+      },
+      {
+        "id": "cheesecake-garni-dessert",
+        "name": "Cheesecake Garni",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Crème pistache / Lotus / Oreo",
+        "tags": []
+      },
+      {
+        "id": "cake-americain-dessert",
+        "name": "Cake Américain",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "Chocolat au lait / Chocolat blanc",
+        "tags": []
+      }
+    ],
+    "sweet_crepes": [
+      {
+        "id": "nutella-sweet-crepe",
+        "name": "Nutella",
+        "price": 50,
+        "price_display": "50 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "lotus-sweet-crepe",
+        "name": "Lotus",
+        "price": 65,
+        "price_display": "65 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "oreo-sweet-crepe",
+        "name": "Oreo",
+        "price": 68,
+        "price_display": "68 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "kunafa-pistache-sweet-crepe",
+        "name": "Kunafa Pistache",
+        "price": 70,
+        "price_display": "70 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "crepe-amlou-amandes-sweet-crepe",
+        "name": "Crêpe Amlou Amandes",
+        "price": 72,
+        "price_display": "72 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "crepe-chocolat-belge-sweet-crepe",
+        "name": "Crêpe Chocolat Belge",
+        "price": 75,
+        "price_display": "75 dhs",
+        "description": "Noir / Blanc / Au lait",
+        "tags": []
+      },
+      {
+        "id": "crepe-dallas-sweet-crepe",
+        "name": "Crêpe Dallas",
+        "price": 82,
+        "price_display": "82 dhs",
+        "description": "Chocolat au lait belge + crème lotus + crème pistache + amlou + biscuits",
+        "tags": []
+      }
     ]
   },
   "fr": {
@@ -795,6 +985,196 @@
         "price": 45,
         "price_display": "45 dhs",
         "description": "",
+        "tags": []
+      }
+    ],
+    "glaces": [
+      {
+        "id": "mangue-glace",
+        "name": "Mangue",
+        "price": 28,
+        "price_display": "28 dhs",
+        "description": "Glace Fruit",
+        "tags": []
+      },
+      {
+        "id": "fraise-glace",
+        "name": "Fraise",
+        "price": 28,
+        "price_display": "28 dhs",
+        "description": "Glace Fruit",
+        "tags": []
+      },
+      {
+        "id": "citron-glace",
+        "name": "Citron",
+        "price": 28,
+        "price_display": "28 dhs",
+        "description": "Glace Fruit",
+        "tags": []
+      },
+      {
+        "id": "lotus-glace",
+        "name": "Lotus",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      },
+      {
+        "id": "oreo-glace",
+        "name": "Oreo",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      },
+      {
+        "id": "pistache-glace",
+        "name": "Pistache",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      },
+      {
+        "id": "chocolat-au-lait-glace",
+        "name": "Chocolat au lait",
+        "price": 34,
+        "price_display": "34 dhs",
+        "description": "Glace Biscuit",
+        "tags": []
+      }
+    ],
+    "desserts": [
+      {
+        "id": "san-sebastian-nutella-dessert",
+        "name": "San Sebastian Nutella",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "san-sebastian-dessert",
+        "name": "San Sebastian",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Oreo / Lotus / Chocolat belge / Crème pistache",
+        "tags": []
+      },
+      {
+        "id": "fondant-chocolat-dessert",
+        "name": "Fondant Chocolat",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "fondant-chocolat-garni-dessert",
+        "name": "Fondant au Chocolat Garni",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Crème pistache / Lotus / Oreo",
+        "tags": []
+      },
+      {
+        "id": "brownie-dessert",
+        "name": "Brownie",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "Chocolat / Cookies",
+        "tags": []
+      },
+      {
+        "id": "brownie-chocolat-garni-dessert",
+        "name": "Brownie au Chocolat Garni",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Crème pistache / Lotus / Oreo",
+        "tags": []
+      },
+      {
+        "id": "cheesecake-dessert",
+        "name": "Cheesecake",
+        "price": 40,
+        "price_display": "40 dhs",
+        "description": "Citron / Mangue / Fraise",
+        "tags": []
+      },
+      {
+        "id": "cheesecake-garni-dessert",
+        "name": "Cheesecake Garni",
+        "price": 48,
+        "price_display": "48 dhs",
+        "description": "Crème pistache / Lotus / Oreo",
+        "tags": []
+      },
+      {
+        "id": "cake-americain-dessert",
+        "name": "Cake Américain",
+        "price": 45,
+        "price_display": "45 dhs",
+        "description": "Chocolat au lait / Chocolat blanc",
+        "tags": []
+      }
+    ],
+    "sweet_crepes": [
+      {
+        "id": "nutella-sweet-crepe",
+        "name": "Nutella",
+        "price": 50,
+        "price_display": "50 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "lotus-sweet-crepe",
+        "name": "Lotus",
+        "price": 65,
+        "price_display": "65 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "oreo-sweet-crepe",
+        "name": "Oreo",
+        "price": 68,
+        "price_display": "68 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "kunafa-pistache-sweet-crepe",
+        "name": "Kunafa Pistache",
+        "price": 70,
+        "price_display": "70 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "crepe-amlou-amandes-sweet-crepe",
+        "name": "Crêpe Amlou Amandes",
+        "price": 72,
+        "price_display": "72 dhs",
+        "description": "",
+        "tags": []
+      },
+      {
+        "id": "crepe-chocolat-belge-sweet-crepe",
+        "name": "Crêpe Chocolat Belge",
+        "price": 75,
+        "price_display": "75 dhs",
+        "description": "Noir / Blanc / Au lait",
+        "tags": []
+      },
+      {
+        "id": "crepe-dallas-sweet-crepe",
+        "name": "Crêpe Dallas",
+        "price": 82,
+        "price_display": "82 dhs",
+        "description": "Chocolat au lait belge + crème lotus + crème pistache + amlou + biscuits",
         "tags": []
       }
     ]
