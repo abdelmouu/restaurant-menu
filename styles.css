@@ -54,11 +54,38 @@ display: none;
 
 /* Brand Logo Styling */
 .brand-logo {
-height: 48px;
+height: 60px;
 width: auto;
 object-fit: contain;
 }
 
+/* Container for the new branding text */
+.brand-branding {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px;
+  margin-left: 12px; 
+}
+
+/* "Dallas" - Elegant and dominant */
+.dallas-text {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--clr-accent);
+}
+
+/* "CHOCO HOUSE" - Modern, spaced out, and chocolate-toned */
+.choco-text {
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--clr-accent);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
 /* Language Toggle Styling */
 .lang-toggle {
 display: inline-flex;
